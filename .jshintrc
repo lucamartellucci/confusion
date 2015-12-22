@@ -9,5 +9,5 @@
 "strict":true,
 "undef":true,
 "unused":true,
-"globals":{ "angular":false }
+"globals":{ "angular":false, "console":false }
 }
