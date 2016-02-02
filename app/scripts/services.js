@@ -204,13 +204,13 @@ angular.module('confusionApp')
 
             // implement a function named getPromotion
             // that returns a selected promotion.
-            this.getPromotion = function () {
-            	return promotions[0];
+            this.getPromotion = function (index) {
+            	return promotions[index];
             };
 
-            this.getFeaturedDish = function (){
-            	return dishes[0];
-            }
+            this.getFeaturedDish = function (index){
+            	return dishes[index];
+            };
                         
         })
 
@@ -258,9 +258,10 @@ angular.module('confusionApp')
     			return leadership;
     		};
 
-    		corpfac.getLeader = function() {
-    			return leadership[3];
-    		}
+    		corpfac.getLeader = function(index) {
+    			return leadership[index];
+    		};
+
     		return corpfac;
     
         })
