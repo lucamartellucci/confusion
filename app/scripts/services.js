@@ -1,3 +1,4 @@
+(function () {
 'use strict';
 
 angular.module('confusionApp')
@@ -264,6 +265,5 @@ angular.module('confusionApp')
 
     		return corpfac;
     
-        })
-
-;
+        });
+}());

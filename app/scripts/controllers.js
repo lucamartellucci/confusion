@@ -1,3 +1,4 @@
+(function () {
 'use strict';
 
 angular.module('confusionApp')
@@ -106,5 +107,6 @@ angular.module('confusionApp')
            function($scope, corporateFactory) {
 
               $scope.leaders = corporateFactory.getLeaders();
-        }])
-;
+        }]);
+
+}());
